@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="openButton">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -27,7 +27,7 @@
      <string>打开服务器</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="closeButton">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -53,7 +53,7 @@
      <string>接收数据</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="showText">
     <property name="geometry">
      <rect>
       <x>50</x>

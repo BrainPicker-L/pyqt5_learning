@@ -92,7 +92,6 @@ class Ui_MainWindow(object):
         self.textBrowser = QtWidgets.QTextBrowser(self.layoutWidget)
         self.textBrowser.setObjectName("textBrowser")
         self.gridLayout_2.addWidget(self.textBrowser, 0, 0, 1, 1)
-        self.textBrowser.append('66666')
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
